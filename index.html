@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./Media queries.css">
+	<title>First task</title>
+</head>
+
+<body class="body">
+	<header class="header">
+		<div class="header__exit">
+			<button class="header__button-exit">קתנתהל</button>
+			<div class="header__icon-exit"></div>
+		</div>
+		<div class="header__id-block">
+			<span class="header__number">ID: 380645708</span>
+			<button class="header__button">רוזח</button>
+		</div>
+	</header>
+
+	<main>
+		<div class="profile">
+			<div class="profile__inner">
+				<div class="profile__segment-control">
+					<button class="profile__button profile__button_disabled">Video Call</button>
+					<button class="profile__button">Authorized persons</button>
+					<button class="profile__button profile__button_active">User Information</button>
+				</div>
+				<div class="profile__general-information-field">
+					<form class="profile__form" action="#" method="post" name="userData">
+						<div class="profile__block">
+							<input class="profile__input" name="surname" type="text" value="Flores">
+							<span class="profile__placeholder">Surname</span>
+						</div>
+						<div class="profile__block">
+							<input class="profile__input" name="Name" type="text" value="Albert">
+							<span class="profile__placeholder">Name</span>
+						</div>
+						<div class="profile__block">
+							<input class="profile__input" name="emailAddress" type="email" value="email@example.com">
+							<span class="profile__placeholder">Email address</span>
+						</div>
+						<div class="profile__block">
+							<input class="profile__input" name="PhoneNumber" type="tel" value="073 063 33 93">
+							<span class="profile__placeholder">Phone number</span>
+						</div>
+						<div class="profile__block">
+							<input class="profile__input" name="idNumber" type="text" value="380645708">
+							<span class="profile__placeholder">ID number</span>
+						</div>
+						<div class="profile__block">
+							<input class="profile__input" name="licenceNumber" type="text" value="380645708">
+							<span class="profile__placeholder">Licence number</span>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="extra-information">
+				<div class="extra-information__avatar"></div>
+				<div class="extra-information__edit"><button class="extra-information__button">Edit</button></div>
+				<h1 class="extra-information__name">Albert Flores</h1>
+				<div class="extra-information__registration-date">
+					<span class="extra-information__data">20.05.2021</span>
+					<span class="extra-information__text">Registration date:</span>
+					<div class="extra-information__icon extra-information__icon_registration"></div>
+				</div>
+				<div class="extra-information__amount-of-orders">
+					<span class="extra-information__number">5</span>
+					<span class="extra-information__text">Amount of orders:</span>
+					<div class="extra-information__icon extra-information__icon_orders"></div>
+				</div>
+				<button class="extra-information__ban-user">Block user</button>
+			</div>
+		</div>
+
+		<div class="order-history">
+			<div class="order-history__top-panel">
+				<div class="order-history__filter-icon"></div>
+				<h2 class="order-history__title">Order history</h2>
+			</div>
+			<div class="order-history__history-items">
+				<div class="order-history__history-item">
+					<div class="order-history__cell order-history_cost">
+						<span class="order-history__name">Cost</span>
+						<button class="order-history__button">View</button>
+						<span class="order-history__money">₪ 24.48</span>
+					</div>
+					<div class="order-history__cell order-history_date-time">
+						<span class="order-history__name">Date & time</span>
+						<span class="order-history__date">21.03.2021</span>
+						<span class="order-history__time">16:12</span>
+					</div>
+					<div class="order-history__cell order-history_items">
+						<span class="order-history__name">Items</span>
+						<span class="order-history__product">1 X Better PK Flower (T20/C4)</span>
+						<span class="order-history__product">2 X Canndoc Ultra Sour Oil (T20/C4)</span>
+					</div>
+					<div class="order-history__cell order-history_delivery">
+						<span class="order-history__name">Delivery or pickup</span>
+						<span class="order-history__delivery-method">Pick up from store</span>
+					</div>
+					<div class="order-history__cell order-history_payment-method">
+						<span class="order-history__name">Payment method</span>
+						<span class="order-history__method-name">Paid upon recive</span>
+					</div>
+					<div class="order-history__cell order-history_status">
+						<div class="order-history__icon order-history__icon_pending"></div>
+						<span class="order-history__name">Pending</span>
+					</div>
+				</div>
+				<div class="order-history__history-item">
+					<div class="order-history__cell order-history_cost">
+						<span class="order-history__name">Cost</span>
+						<button class="order-history__button">View</button>
+						<span class="order-history__money">₪ 54.50</span>
+					</div>
+					<div class="order-history__cell order-history_dateTime">
+						<span class="order-history__name">Date & time</span>
+						<span class="order-history__date">13.02.2021</span>
+						<span class="order-history__time">16:12</span>
+					</div>
+					<div class="order-history__cell order-history_items">
+						<span class="order-history__name">Items</span>
+						<span class="order-history__product">2 X Canndoc Ultra Sour Oil (T20/C4)</span>
+					</div>
+					<div class="order-history__cell order-history_delivery">
+						<span class="order-history__name">Delivery or pickup</span>
+						<span class="order-history__deliveryMethod">Delivery</span>
+					</div>
+					<div class="order-history__cell order-history_payment-method">
+						<span class="order-history__name">Payment method</span>
+						<span class="order-history__method-name">Paid by Card</span>
+					</div>
+					<div class="order-history__cell order-history_status">
+						<div class="order-history__icon order-history__icon_complete"></div>
+						<span class="order-history__name">Complete</span>
+					</div>
+				</div>
+				<div class="order-history__history-item">
+					<div class="order-history__cell order-history_cost">
+						<span class="order-history__name">Cost</span>
+						<button class="order-history__button">View</button>
+						<span class="order-history__money">₪ 24.48</span>
+					</div>
+					<div class="order-history__cell order-history_date-time">
+						<span class="order-history__name">Date & time</span>
+						<span class="order-history__date">21.03.2021</span>
+						<span class="order-history__time">16:12</span>
+					</div>
+					<div class="order-history__cell order-history_items">
+						<span class="order-history__name">Items</span>
+						<span class="order-history__product">1 X Better PK Flower (T20/C4)</span>
+						<span class="order-history__product">2 X Canndoc Ultra Sour Oil (T20/C4)</span>
+					</div>
+					<div class="order-history__cell order-history_delivery">
+						<span class="order-history__name">Delivery or pickup</span>
+						<span class="order-history__delivery-method">Pick up from store</span>
+					</div>
+					<div class="order-history__cell order-history_payment-method">
+						<span class="order-history__name">Payment method</span>
+						<span class="order-history__method-name">Paid upon recive</span>
+					</div>
+					<div class="order-history__cell order-history_status">
+						<div class="order-history__icon order-history__icon_pending"></div>
+						<span class="order-history__name">Pending</span>
+					</div>
+				</div>
+				<div class="order-history__history-item">
+					<div class="order-history__cell order-history_cost">
+						<span class="order-history__name">Cost</span>
+						<button class="order-history__button">View</button>
+						<span class="order-history__money">₪ 54.50</span>
+					</div>
+					<div class="order-history__cell order-history_dateTime">
+						<span class="order-history__name">Date & time</span>
+						<span class="order-history__date">13.02.2021</span>
+						<span class="order-history__time">16:12</span>
+					</div>
+					<div class="order-history__cell order-history_items">
+						<span class="order-history__name">Items</span>
+						<span class="order-history__product">2 X Canndoc Ultra Sour Oil (T20/C4)</span>
+					</div>
+					<div class="order-history__cell order-history_delivery">
+						<span class="order-history__name">Delivery or pickup</span>
+						<span class="order-history__deliveryMethod">Delivery</span>
+					</div>
+					<div class="order-history__cell order-history_payment-method">
+						<span class="order-history__name">Payment method</span>
+						<span class="order-history__method-name">Paid by Card</span>
+					</div>
+					<div class="order-history__cell order-history_status">
+						<div class="order-history__icon order-history__icon_complete"></div>
+						<span class="order-history__name">Complete</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
